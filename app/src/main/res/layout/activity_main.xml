@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--É recomendavel que cada elemento de UI tenha uma area focalizada com tamanho de pelo menos 48 dp ✕ 48 dp -->
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityHeading="true"
+        android:accessibilityPaneTitle="@string/cadastro"
+        android:contentDescription="Formulario de cadastro"
+        android:labelFor="@+id/textView"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:text="@string/cadastre_se"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    <!--accessibilityPaneTitle define titulo de facil acessibilidade
+    labelfor para representar qual view que o text representa
+    -->
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="@string/nome"
+        android:inputType="textPersonName|textCapWords"
+        android:labelFor="@+id/editTextTextPersonName5"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/editTextTextPersonName5"
+        android:paddingLeft="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress2"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Endereço"
+        android:inputType="textWebEmailAddress|textPostalAddress"
+        android:labelFor="@id/editTextTextPostalAddress2"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/editTextTextPostalAddress2"
+        android:paddingLeft="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Estado"
+        android:inputType="textPostalAddress"
+        android:labelFor="@id/editTextTextPersonName6"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/editTextTextPersonName6"
+        android:paddingLeft="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Cidade"
+        android:inputType="textPostalAddress"
+        android:labelFor="@id/city"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/city"
+        android:paddingLeft="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white" />
+
+    <EditText
+
+        android:id="@+id/phone"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:labelFor="@id/phone"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/phone"
+        android:paddingLeft="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        android:labelFor="@id/email"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/email"
+        android:paddingLeft="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/teal_700"
+        android:contentDescription="@string/cadastrar"
+        android:labelFor="@id/button2"
+        android:minWidth="40dp"
+        android:minHeight="32dp"
+        android:nextFocusForward="@+id/button2"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:text="@string/cadastrar"
+        app:backgroundTint="@color/black" />
+
+    <!--contentDescription descreve acao do botao-->
+
+</LinearLayout>
+
+

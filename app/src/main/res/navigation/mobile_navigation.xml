@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_info">
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.interfaceandroid_at.UI.InfoPessoais.InformacaoPessoalFragment"
+        android:label="fragment_informacao_pessoal"
+        tools:layout="@layout/fragment_informacao_pessoal" />
+    <fragment
+        android:id="@+id/nav_formacao"
+        android:name="com.example.interfaceandroid_at.UI.Formacao.FormacaoFragment"
+        android:label="fragment_formacao"
+        tools:layout="@layout/fragment_formacao" />
+    <fragment
+        android:id="@+id/nav_experiencia"
+        android:name="com.example.interfaceandroid_at.UI.ExperienciaProfissional.ExperienciaProfissionalFragment"
+        android:label="fragment_experiencia_profissional"
+        tools:layout="@layout/fragment_experiencia_profissional" />
+    <fragment
+        android:id="@+id/nav_curso"
+        android:name="com.example.interfaceandroid_at.UI.Cursos.CursosFragment"
+        android:label="fragment_cursos"
+        tools:layout="@layout/fragment_cursos" />
+    <fragment
+        android:id="@+id/nav_publicacao"
+        android:name="com.example.interfaceandroid_at.UI.Publicacoes.PublicacoesFragment"
+        android:label="fragment_publicacoes"
+        tools:layout="@layout/fragment_publicacoes" />
+</navigation>

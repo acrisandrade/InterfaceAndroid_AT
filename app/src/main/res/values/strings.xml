@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InterfaceAndroid_AT</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="nome">Nome</string>
+    <string name="cadastrar">criar cadastro</string>
+    <string name="cadastro">formulario de cadastro</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cristina Andrade</string>
+    <string name="nav_header_subtitle">Cristina.andrade@al.infnet.edu.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_info">Informação Pessoal</string>
+    <string name="menu_formacao">Formação</string>
+    <string name="menu_experiencia">Experiência profissional</string>
+    <string name="menu_curso">Cursos</string>
+    <string name="menu_publicacao">Publicaçoes</string>
+</resources>

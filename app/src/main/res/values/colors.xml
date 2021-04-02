@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#6d26b7</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#380086</color>
+    <color name="white">#F7EAE0E0</color>
+</resources>
+
+    <!--- https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=6d26b7&secondary.color=6D26B7-->
+    <!---https://contrast-ratio.com/#%23F7EAE0E0-on-%236D26B7-->
