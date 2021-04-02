@@ -30,3 +30,4 @@ class InformacaoPessoalFragment : Fragment() {
     }
 
 }
+

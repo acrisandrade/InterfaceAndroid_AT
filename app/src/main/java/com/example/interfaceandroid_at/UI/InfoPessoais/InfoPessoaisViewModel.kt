@@ -12,8 +12,8 @@ class InfoPessoaisViewModel : ViewModel() {
 
 
     private val _text = MutableLiveData<String>().apply {
-        value = " Nome:Cristina\n Idade:21 anos\n Data de nascimento: 15/06/1998\n Estado civil: Solteira\n " +
-                "telefone:(21)0000-0000"
+        value ="Nome:Cristina\n Idade:21 anos\n Data de nascimento: 15/06/1998\n Estado civil: Solteira\n " +
+        "telefone:(21)0000-0000"
     }
    val text: LiveData<String> = _text
 

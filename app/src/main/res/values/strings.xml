@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">InterfaceAndroid_AT</string>
     <string name="cadastre_se">Cadastre-se</string>
-    <string name="nome">Nome</string>
+    <string name="nome"> nome </string>
     <string name="cadastrar">criar cadastro</string>
     <string name="cadastro">formulario de cadastro</string>
     <string name="title_activity_nav_drawer">NavDrawerActivity</string>
@@ -17,4 +17,9 @@
     <string name="menu_experiencia">Experiência profissional</string>
     <string name="menu_curso">Cursos</string>
     <string name="menu_publicacao">Publicaçoes</string>
+    <string name="formulario_de_cadastro">Formulario de cadastro</string>
+    <string name="fotodousuario">Foto do usuário</string>
+    <string name="seu_nome">seu nome</string>
+    <string name="seu_email">seu email</string>
+    <string name="barra_de_navegacao">barra de navegacao</string>
 </resources>
