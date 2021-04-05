@@ -21,6 +21,7 @@
         android:accessibilityPaneTitle="@string/cadastro"
         android:contentDescription="Formulario de cadastro"
         android:fontFamily="sans-serif-black"
+        android:nextFocusForward="@id/textView"
         android:labelFor="@+id/textView"
         android:minWidth="40dp"
         android:minHeight="32dp"
@@ -47,11 +48,12 @@
         android:inputType="textPersonName|textCapWords"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/editTextTextPersonName5"
+        android:nextFocusDown="@+id/editTextTextPersonName5"
         android:paddingLeft="4dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
         android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF5722"
         android:textColorHint="@color/white"
         android:textColorLink="@color/white" />
 
@@ -67,7 +69,7 @@
         android:inputType="textWebEmailAddress|textPostalAddress"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/editTextTextPostalAddress2"
+        android:nextFocusDown="@+id/editTextTextPostalAddress2"
         android:paddingLeft="4dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -89,7 +91,7 @@
         android:inputType="textPostalAddress"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/editTextTextPersonName6"
+        android:nextFocusDown="@+id/editTextTextPersonName6"
         android:paddingLeft="4dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -110,7 +112,7 @@
         android:inputType="textPostalAddress"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/city"
+        android:nextFocusDown="@id/city"
         android:paddingLeft="4dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -132,7 +134,7 @@
         android:inputType="phone"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/phone"
+        android:nextFocusDown="@+id/phone"
         android:paddingStart="4dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -153,7 +155,7 @@
         android:inputType="textWebEmailAddress"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/email"
+        android:nextFocusDown="@+id/email"
         android:paddingLeft="4dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -168,20 +170,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@color/teal_700"
+        android:background="@color/purple_700"
         android:contentDescription="botao"
-        android:fontFamily="sans-serif-light"
+        android:fontFamily="sans-serif-black"
         android:minWidth="40dp"
         android:minHeight="32dp"
-        android:nextFocusForward="@+id/button2"
         android:paddingLeft="4dp"
         android:paddingTop="8dp"
         android:paddingRight="4dp"
         android:paddingBottom="8dp"
         android:text="@string/cadastrar"
-        app:backgroundTint="@color/black" />
+        android:textColor="@color/white"
+        android:textColorHint="#F6F0F0" />
+    <!--android:nextFocusDown="@id/button2"
+    android:contentDescription="Botao para concluir cadastro"->
 
-    <!--contentDescription descreve acao do botao-->
+
+<!-contentDescription descreve acao do botao-->
 
 </LinearLayout>
 

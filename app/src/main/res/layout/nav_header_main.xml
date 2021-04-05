@@ -17,9 +17,10 @@
         android:id="@+id/imageView"
         android:layout_width="63dp"
         android:layout_height="65dp"
-        android:contentDescription="@string/fotodousuario"
+        android:contentDescription="Imagem"
         app:srcCompat="@drawable/ic_baseline_face_24"
         tools:ignore="VectorDrawableCompat" />
+    <!--android:contentDescription="@string/fotodousuario"-->
 
     <TextView
         android:layout_width="313dp"
